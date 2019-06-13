@@ -1,2 +1,3 @@
 # HTML_Practice
-HTML and JavaScript skill practicing
+My first attempt at HTML, CSS and Javascript.
+
