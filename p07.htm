@@ -4,16 +4,24 @@
 <title>跑馬燈衝啊</title>
 </head>
 <body>
-<marquee>☆哈囉你好嗎☆</marquee><br>
-<marquee bgcolor="yellow">☆☆☆衷心感謝☆☆☆</marquee><br>
-<marquee width="400" height="280" bgcolor="#A5DE94">◆珍重再見◆</marquee><br>
-<marquee behavior="alternate">期待再相逢</font></marquee><br>
+<marquee bgcolor="#DDDDDD" scrollamount="10">
+    <img src="./images/f1.png" width=80 height=80>哈囉你好嗎
+    <img src="./images/face1.gif" width=80 height=80> </marquee><br>
+<marquee bgcolor="yellow" scrollamount="10">
+    <big><big>☆☆☆衷心感謝☆☆☆</big></marquee><br>
+<marquee onmouseover="this.stop();" onmouseout="this.start();" 
+width="400" height="280" bgcolor="#A5DE94">◆珍重再見◆ 
+</marquee><br>
+<marquee bgcolor="caremel" scrollamount="18" behavior="alternate">期待再相逢</marquee><br>
 <!--behavior="scroll"/"Alternate"/"Slide"-->
-<marquee scrollamount="70" scrolldelay="500">讓你接受我～接受我～接受我～從今以後</marquee><br>
+<marquee scrollamount="70" scrolldelay="500">
+    讓你接受我～接受我～接受我～從今以後</marquee><br>
 <!--scrollamount=" " 文字每次移動的量，以像素-->
 <!--scrolldelay=" " 文字每次延遲的時間-->
 <!--onmouseover="this.stop();" 滑鼠移進去就會停-->
 <!--onmouseout="this.start();" 滑鼠一離開就會繼續跑-->
 <!--direction="up/down/left/right" 文字移動的方向-->
+<!--<img src=""> 跑一張圖-->
+
 </body>
 </html>
